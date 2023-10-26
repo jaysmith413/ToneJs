@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<meta charset="utf-8" />
+		<title>Simple HTML</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- LOAD Tone.js from unpkg -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.min.js" 
+            integrity="sha512-Siyxh4gyNM5SaERNa9BOZSPcu/auHyFUWn9OVFD7MxI3/dVPQklE7tfqS+pLmPHF1zo6UdDaJAp/thihrf0c7w==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer">
+        </script>
+        <style>
+            button {
+                background-color: blue;
+                color: white;
+                border-radius: 70%;
+                flex-grow: 2;
+                height: 100px;
+                width: 75px;
+                font-size: 2rem;
+            }
+            section {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+            h1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-bottom: 100px;
+                font-size: 3rem;
+            }
+            body {
+                background-color: aquamarine;
+            }
+        </style>
+        
+
+	</head>
+	<body>
+		<h1>Choose a tone!</h1>
+		<section>
+            <button id="C4">C</button>
+            <button id="C#4">C#/Db</button>
+            <button id="D4">D</button>
+            <button id="D#4">D#/Eb</button>
+            <button id="E4">E</button>
+            <button id="F4">F</button>
+            <button id="F#4">F#/Gb</button>
+            <button id="G4">G</button>
+            <button id="G#4">G#/Ab</button>
+            <button id="A4">A</button>
+            <button id="A#4">A#/Bb</button>
+            <button id="B4">B</button>
+        </section>
+
+	</body>
+    <script src="app.js"></script>
+</html>
